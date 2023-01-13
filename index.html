@@ -2,37 +2,27 @@
 <html lang="en-US">
 
 <head>
+    <title>Programming Language Selector</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/scripts.js"></script>
-    <title>Programming Language Selector</title>
 </head>
 
 <body>
-    <div class="intro">
         <h1>Programming Language Selector</h1>
         <h3>Welcome to the Programming Language Selector</h3>
-        <p>Fill out the forms below with information about yourself, and we will determine which
-        program language you should learn first.</p>
-    </div>
-
-    <div class="forms">
-    <form id="personal">
-        <label for="name">Name:</label>
-        <input id="name" type="string">
-        <br>
-        <br>
-    </form>
-
-    <form id="fav-time">
-        <label for="time">Favorite time of day:</label>
-        <input id="time" type="time">
-        <br>
-        <br>
-    </form>
-
-    <form id="color-form">
-        <label for="color">Favorite color:</label>
-        <input id="color" type="color"><br><br>
+        <p>Fill out the forms below with information about yourself, and we will determine which programming language you should learn first.</p>
+    <div>
+        <form>
+            <label for="name">Name:</label>
+            <input id="name" type="string">
+            <br>
+            <br>
+            <label for="time">Favorite time of day:</label>
+            <input id="time" type="time">
+            <br>
+            <br>
+            <label for="color">Favorite color:</label>
+            <input id="color" type="color"><br><br>
         </form> 
 
         <form id="radio-form">
@@ -61,11 +51,13 @@
         </select><br><br>
         <button type="submit">Submit</button>
     </form>
-    </div>
 
-    <div class="output">
-        <h2 id="results"></h2>
-    </div>
+
+    <!-- <div id="results" class="hidden">
+        <h1>Your results:</h1>
+    </div> -->
+
+    <h2 id="output"></h2>
 
 </body>
 
