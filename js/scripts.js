@@ -10,19 +10,19 @@ window.onload = function () {
 
         let result = "";
         if ((dreamVacation === "Aspen") && (favoriteSeason === "Spring" || favoriteSeason === "Summer")) {
-            result = yourName + ", you're a " + favoriteSeason + " person with a sense of adventure. You should start your coding journey by learning " + "Javascript.";
+            result = yourName + ", you're awesome person with a sense of adventure. You should start your coding journey by learning " + "Javascript.";
         }
         else if ((dreamVacation === "Aspen") && (favoriteSeason === "Fall" || favoriteSeason == "Winter")) {
-            result = yourName + ", you're a " + favoriteSeason + " person with a sense of adventure. You should start your coding journey by learning " + "C#.";
+            result = yourName + ", you're a  cool person with a sense of adventure. You should start your coding journey by learning " + "C#.";
         }
         else if ((dreamVacation === "Fiji") && (favoriteSeason === "Spring" || favoriteSeason === "Summer")) {
-            result = yourName + ", you're a " + favoriteSeason + " person with a sense of adventure. You should start your coding journey by learning " + "C#.";
+            result = yourName + ", you're an awesome person with a sense of adventure. You should start your coding journey by learning " + "C#.";
         }
         else if ((dreamVacation === "Fiji") && (favoriteSeason === "Fall" || favoriteSeason === "Winter")) {
-            result = yourName + ", you're a " + favoriteSeason + " person with a sense of adventure. You should start your coding journey by learning " + "Python.";
+            result = yourName + ", you're a cool person with a sense of adventure. You should start your coding journey by learning " + "Python.";
         }
         else if (dreamVacation === "Tokyo") {
-            result = yourName + ", you're a " + favoriteSeason + " person with a sense of adventure. You should start your coding journey by learning " + "Javascript.";
+            result = yourName + ", you're an awesome person with a sense of adventure. You should start your coding journey by learning " + "Javascript.";
         }
 
         document.getElementById("output").innerText = result;
