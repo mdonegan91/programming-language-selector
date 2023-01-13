@@ -1,3 +1,21 @@
-.hidden {
-    display: none;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background: #2d2d2d;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+h2 {
+    color: rgb(249, 249, 198);
+}
+
+
+h3 {
+    color: rgb(254, 236, 180);
 }
