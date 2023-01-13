@@ -8,56 +8,43 @@
 </head>
 
 <body>
-        <h1>Programming Language Selector</h1>
-        <h3>Welcome to the Programming Language Selector</h3>
-        <p>Fill out the forms below with information about yourself, and we will determine which programming language you should learn first.</p>
+    <h1>Programming Language Selector</h1>
+    <h3>Welcome to the Programming Language Selector</h3>
+    <p>Fill out the forms below with information about yourself, and we will determine which programming language you
+        should learn first.</p>
     <div>
-        <form>
+        <form id="main-form">
             <label for="name">Name:</label>
-            <input id="name" type="string">
-            <br>
-            <br>
+            <input id="name" value="" type="string"><br><br>
+
             <label for="time">Favorite time of day:</label>
-            <input id="time" type="time">
-            <br>
-            <br>
+            <input id="time" type="time"><br><br>
+
             <label for="color">Favorite color:</label>
             <input id="color" type="color"><br><br>
-        </form> 
 
-        <form id="radio-form">
             <label for="vacation">Dream vacation:</label><br>
-            <label>
-                <input type="radio" name="vacation" value="beach" checked>
-                Fiji
-            </label><br>
-            <label>
-                <input type="radio" name="vacation" value="mountain">
-                Aspen
-            </label><br>
-            <label>
-                <input type="radio" name="vacation" value="tokyo">
-                Tokyo
-            </label><br><br>
+            <input type="radio" name="vacation" value="Fiji" id="sand" checked>
+            <label for="fiji">Fiji</label><br>
+            <input type="radio" name="vacation" value="Aspen" id="tokyo">
+            <label for="aspen">Aspen</label><br>
+            <input type="radio" name="vacation" value="Tokyo" id="snow">
+            <label for="tokyo">Tokyo</label><br><br>
+
+            <label for="season">Favorite season:</label><br>
+            <select id="fav-season">
+                <option>Winter</option>
+                <option>Spring</option>
+                <option>Summer</option>
+                <option>Fall</option>
+            </select><br><br>
+
+            <button type="submit">Submit</button>
         </form>
-
-    <form id="select-form">
-        <label for="season">Favorite season:</label><br>
-        <select id="season">
-            <option>Winter</option>
-            <option>Spring</option>
-            <option>Summer</option>
-            <option>Fall</option>
-        </select><br><br>
-        <button type="submit">Submit</button>
-    </form>
-
-
-    <!-- <div id="results" class="hidden">
-        <h1>Your results:</h1>
-    </div> -->
-
-    <h2 id="output"></h2>
+        <div id="results" class="hidden">
+            <h1>Your results:</h1>
+            <h2 id="output"></h2>
+        </div>
 
 </body>
 
